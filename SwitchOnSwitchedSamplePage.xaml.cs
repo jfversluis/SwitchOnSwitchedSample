@@ -19,7 +19,7 @@ namespace SwitchOnSwitchedSample
             };
         }
 
-        void Handle_OnChanged(object sender, ToggledEventArgs args)
+        private void Handle_OnChanged(object sender, ToggledEventArgs args)
         {
 			var selectedItem = ((SwitchCell)sender).BindingContext as Foo;
 
